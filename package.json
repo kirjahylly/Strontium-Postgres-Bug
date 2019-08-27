@@ -1,0 +1,20 @@
+{
+  "name": "strontiumpostgresbug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "migrate": "knex migrate:latest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "strontium": "2.9.11"
+  },
+  "devDependencies": {
+    "knex": "^0.19.2",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^3.5.3"
+  }
+}
